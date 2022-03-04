@@ -1,0 +1,20 @@
+{
+    "openapi": "3.0.0",
+    "paths": {
+        "/api/v1.0/users": {
+            "get": {
+                "tags": [
+                    "users"
+                ],
+                "summary": "Gera a lista de usuarios",
+                "description": "Request para gerar a lista de usuarios",
+                "operationId": "c1782115e72f8b64de93fa3964d7d128",
+                "responses": {
+                    "200": {
+                        "data": "Lista de usuario"
+                    }
+                }
+            }
+        }
+    }
+}

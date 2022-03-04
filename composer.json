@@ -1,5 +1,5 @@
 {
-    "name": "Treblle/laravel-api-boilerplate",
+    "name": "api/v2",
     "type": "project",
     "description": "Kick-start you next Laravel based API with this awesome boilerplate",
     "keywords": ["api", "boilerplate", "template", "laravel"],
@@ -12,7 +12,8 @@
         "laravel/framework": "^9.0",
         "laravel/sanctum": "^2.14",
         "laravel/tinker": "^2.7",
-        "treblle/treblle-laravel": "^2.6"
+        "treblle/treblle-laravel": "^2.6",
+        "zircote/swagger-php": "^4.2"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",

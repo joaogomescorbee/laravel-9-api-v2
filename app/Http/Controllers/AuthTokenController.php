@@ -13,7 +13,17 @@ use Illuminate\Validation\ValidationException;
 use Symfony\Component\HttpFoundation\Response;
 
 final class AuthTokenController extends Controller
-{
+{   
+    /**
+     * @OA\Post(
+     *     tags={"auth"},
+     *     summary="Faz o processo de login e retorna token",
+     *     description="Retorna o token de autenticação",
+     *     path="/api/auth/token",
+     *     @OA\Response(response="200", token="Token de autenticação"),
+     * ),
+     * 
+    */
     public function __invoke(AuthTokenRequest $request): JsonResponse
     {
         $data = $request->validated();
