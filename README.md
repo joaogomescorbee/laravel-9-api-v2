@@ -44,11 +44,17 @@ We added an awesome Laravel package called Treblle. Out of the box Treblle gives
 ## Instalação
 
 npm install
+
 composer install
+
 php artisan key:generate
+
 php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
+
 php artisan migrate
+
 php artisan user:create
+
 php artisan serve
 
 ## Dependencies
