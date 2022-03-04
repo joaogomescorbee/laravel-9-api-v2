@@ -41,6 +41,22 @@ We added an awesome Laravel package called Treblle. Out of the box Treblle gives
 * PHP 8.1+
 * Laravel 9+
 
+## Instalação
+
+npm install
+
+composer install
+
+php artisan key:generate
+
+php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
+
+php artisan migrate
+
+php artisan user:create
+
+php artisan serve
+
 ## Dependencies
 
 - [composer/semver](https://github.com/composer/semver)
